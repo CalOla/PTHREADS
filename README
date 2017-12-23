@@ -1,0 +1,28 @@
+Programming Assignment #1
+Due 9-18-17 11:00 PM
+
+Write a pthread program to sum a random array of 1000 integers. Your 
+program should split the array into k segments, 
+and each of the k threads will sum over that segment of the array. The segment sums should be stored in a global 
+array called a of type integer and size of 1000.
+
+Input:
+
+From the command line the user will provide file (named: input.txt ) where the numbers to sum will be read into an array 
+and the number of threads to create.
+
+For example:
+
+./a.out input.txt 7
+
+In this case, the numbers will be read into from the file input.txt. Note that this file may contain a total number of integers that is 
+not a multiple of k.
+
+Output:
+
+Simply output the total sum.
+
+Hint: Consider pmax.cpp
+
+Name your program 0.cpp and be sure to place it in your pgm directory.
+
